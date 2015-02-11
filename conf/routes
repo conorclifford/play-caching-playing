@@ -1,0 +1,2 @@
+GET     /data/:id                controllers.Application.getById(id: java.util.UUID)
+POST    /data                    controllers.Application.post()
